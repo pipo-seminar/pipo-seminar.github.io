@@ -1,0 +1,40 @@
+<table class="schedule">
+  <tbody>
+  {%- for item in site.data.schedule %}
+    {%- case item.type %}
+      {%- when "talk" %}{% assign kind = "Talk" %}
+      {%- when "open-problem" %}{% assign kind = "Open problems" %}
+      {%- when "poster" %}{% assign kind = "Posters" %}
+      {%- else %}{% assign kind = "" %}
+    {%- endcase %}
+    {%- assign title = item.title | default: "To be announced" %}
+    {%- assign speaker = item.speaker | default: "" %}
+    {%- assign speaker_url = item.speaker_url | default: "" %}
+    {%- assign affiliation = item.affiliation | default: "" %}
+    {%- assign description = item.description | default: "" %}
+    {%- assign abstract = item.abstract | default: "" %}
+    {%- assign slides = item.slides | default: "" %}
+    <tr class="{{ item.type | default: 'break' }}">
+      <td class="time">{{ item.time }}{% if item.end %}&thinsp;–&thinsp;{{ item.end }}{% endif %}</td>
+      <td class="event">
+        {%- if kind != "" %}<div class="kind">{{ kind }}</div>{% endif %}
+        <div class="title">{{ title }}</div>
+        {%- if speaker != "" %}
+        <div class="speaker">
+          {%- if speaker_url != "" %}<a href="{{ speaker_url }}">{{ speaker }}</a>{% else %}{{ speaker }}{% endif %}
+          {%- if affiliation != "" %} <span class="affiliation">({{ affiliation }})</span>{% endif -%}
+        </div>
+        {%- endif %}
+        {%- if description != "" %}<div class="description">{{ description }}</div>{% endif %}
+        {%- if abstract != "" %}
+        <details>
+          <summary>Abstract</summary>
+          {{ abstract | markdownify }}
+        </details>
+        {%- endif %}
+        {%- if slides != "" %}<div class="links"><a href="{{ slides | relative_url }}">Slides</a></div>{% endif %}
+      </td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>

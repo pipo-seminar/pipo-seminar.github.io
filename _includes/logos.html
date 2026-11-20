@@ -1,0 +1,11 @@
+<ul class="logos">
+  {%- for logo in site.data.logos %}
+  {%- assign url = logo.url | default: "" %}
+  {%- assign height = logo.height | default: 44 %}
+  <li>
+    {%- if url != "" %}<a href="{{ url }}">{% endif -%}
+    <img src="{{ logo.image | relative_url }}" alt="{{ logo.name }}" title="{{ logo.name }}" style="height: {{ height }}px;" loading="lazy">
+    {%- if url != "" %}</a>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>

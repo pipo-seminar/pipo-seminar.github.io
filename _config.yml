@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Site settings. Most things you will want to change live here,
+# in _data/schedule.yml (program) and in _data/organizers.yml.
+# Restart `jekyll serve` after editing this file (it is not live-reloaded).
+# ---------------------------------------------------------------------------
+
+title: "PIPO"
+subtitle: "Privacy, Informal Proofs & Open problems"
+description: >-
+  PIPO is a one-day seminar on privacy and safety in machine learning,
+  held in Paris on Monday 7 December 2026, just before NeurIPS.
+
+url: "https://pipo-seminar.github.io"
+baseurl: ""
+
+# Contact address shown on every page.
+contact_email: "pipo-seminar@googlegroups.com"
+
+# Event details, used on the home page and program page.
+event:
+  date: "Monday 7 December 2026"
+  hours: "9:30 – 17:00"
+  room: "Room 7"
+  venue: "PariSanté Campus (PSC)"
+  address: "10 rue d'Oradour-sur-Glane, 75015 Paris"
+  map_url: "https://www.openstreetmap.org/search?query=10%20rue%20d%27Oradour-sur-Glane%2C%2075015%20Paris"
+  # Set to a form URL to show a "Register" button on the home page; leave empty to hide it.
+  registration_url: ""
+
+# Background photo of the home page banner. The credit is required by the photo's license.
+banner:
+  image: /assets/img/paris.jpg
+  credit: "Photo: Benh LIEU SONG, CC BY-SA 4.0"
+  credit_url: "https://commons.wikimedia.org/wiki/File:Paris_Night.jpg"
+
+# Top navigation.
+nav:
+  - title: Home
+    url: /
+  - title: Program
+    url: /program/
+  - title: Organizers
+    url: /organizers/
+
+# Build settings (no need to touch these).
+# theme: null stops GitHub Pages from adding its default theme (Primer),
+# whose stylesheet would overwrite assets/css/style.css.
+theme: null
+timezone: Europe/Paris
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

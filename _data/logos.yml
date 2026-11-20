@@ -1,0 +1,31 @@
+# Logos shown at the bottom of the home page, in this order.
+# Fields:
+#   name     used as alt text
+#   image    path to the logo file (put new files in assets/img/logos/)
+#   url      link on the logo (optional)
+#   height   display height in pixels (optional, default 44): adjust so logos look balanced
+
+- name: Inria
+  image: /assets/img/logos/inria.svg
+  url: https://www.inria.fr
+  height: 34
+
+- name: École normale supérieure – PSL
+  image: /assets/img/logos/ens-psl.png
+  url: https://www.ens.psl.eu
+  height: 44
+
+- name: CNRS
+  image: /assets/img/logos/cnrs.svg
+  url: https://www.cnrs.fr
+  height: 48
+
+- name: Université Paris Dauphine – PSL
+  image: /assets/img/logos/dauphine.png
+  url: https://dauphine.psl.eu
+  height: 24
+
+- name: PariSanté Campus
+  image: /assets/img/logos/parisantecampus.svg
+  url: https://parisantecampus.fr
+  height: 34

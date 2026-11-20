@@ -1,0 +1,16 @@
+# Speakers, shown on the home page in this order.
+# Same fields as _data/organizers.yml (all optional except name):
+#   affiliation   e.g. "Professor, University of Helsinki"
+#   website       link on the name
+#   photo         e.g. /assets/img/speakers/bogdan.jpg (square images look best)
+# Talk titles and times go in _data/schedule.yml.
+
+- name: Antti Honkela
+  affiliation: Professor, University of Helsinki
+  website: https://www.cs.helsinki.fi/u/ahonkela/
+  photo: /assets/img/speakers/antti.jpg
+
+- name: Bogdan Kulynych
+  affiliation: Research Scientist, Lausanne University Hospital (CHUV)
+  website: https://kulyny.ch/
+  photo: /assets/img/speakers/bogdan.jpg

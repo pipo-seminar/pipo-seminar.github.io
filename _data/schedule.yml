@@ -1,0 +1,91 @@
+# Program of the day, rendered on /program/.
+#
+# Each entry is one row. Fields:
+#   time, end      "HH:MM" strings (keep the quotes)
+#   type           talk | open-problem | poster | break
+#                  (break is used for welcome, lunch, coffee, closing: shown greyed out)
+#   title          talk title / session name (empty -> "To be announced")
+#   speaker        name of the speaker or presenter (optional)
+#   speaker_url    link on the speaker's name (optional)
+#   affiliation    shown in parentheses after the name (optional)
+#   description    one line shown under the title (optional)
+#   abstract       shown in a collapsible "Abstract" box; Markdown allowed (optional)
+#   slides         link or path to slides, e.g. /assets/slides/talk1.pdf (optional)
+#
+# Empty fields are simply not displayed.
+
+- time: "09:30"
+  end: "10:00"
+  type: break
+  title: "Welcome and coffee"
+
+# - time: "09:50"
+#   end: "10:00"
+#   type: break
+#   title: "Opening remarks"
+
+- time: "10:00"
+  end: "10:45"
+  type: talk
+  title: ""
+  speaker: ""
+  speaker_url: ""
+  affiliation: ""
+  abstract: ""
+
+- time: "10:45"
+  end: "11:30"
+  type: talk
+  title: ""
+  speaker: ""
+  speaker_url: ""
+  affiliation: ""
+  abstract: ""
+
+- time: "11:30"
+  end: "12:15"
+  type: open-problem
+  title: "Open problem session I"
+  speaker: ""
+  description: "Short presentation of an open problem, followed by discussion in small groups."
+
+- time: "12:15"
+  end: "13:30"
+  type: break
+  title: "Lunch (provided, at PSC)"
+
+- time: "13:30"
+  end: "14:15"
+  type: talk
+  title: ""
+  speaker: ""
+  speaker_url: ""
+  affiliation: ""
+  abstract: ""
+
+- time: "14:15"
+  end: "15:00"
+  type: talk
+  title: ""
+  speaker: ""
+  speaker_url: ""
+  affiliation: ""
+  abstract: ""
+
+- time: "15:00"
+  end: "16:00"
+  type: poster
+  title: "Poster session and coffee"
+
+- time: "16:00"
+  end: "17:00"
+  type: open-problem
+  title: "Open problem session II"
+  speaker: ""
+  description: "Short presentation of an open problem, followed by discussion in small groups."
+
+
+
+- time: "17:00"
+  type: break
+  title: "Closing"

@@ -1,0 +1,28 @@
+# Organizers, rendered on /organizers/ in this order.
+# Fields (all optional except name):
+#   affiliation   e.g. "Inria Paris"
+#   website       link on the name
+#   photo         e.g. /assets/img/organizers/valentin.jpg (square images look best)
+
+
+
+
+- name: Edwige Cyffers
+  affiliation: CNRS Researcher, Dauphine University, Paris
+  website: https://perso.ens-lyon.fr/edwige.cyffers/
+  photo: /assets/img/organizers/edwige.jpg
+
+- name: Hanna Benarroch
+  affiliation: PhD student, École normale supérieure – PSL, Paris
+  website: https://hannabenarroch15.github.io/
+  photo: /assets/img/organizers/hanna.jpg
+
+- name: Valentin Dorseuil
+  affiliation: PhD student, École normale supérieure – PSL, Paris
+  website: https://valentindorseuil.com/
+  photo: /assets/img/organizers/valentin.jpg
+
+- name: Martin Van Waerebeke
+  affiliation: PhD student, INRIA, Paris
+  website: https://m-vanwaerebeke.github.io/
+  photo: /assets/img/organizers/martin.jpg
