@@ -5,7 +5,8 @@ title: Home
 
 ## About
 
-PIPO is a one-day seminar on privacy and safety in machine learning, held in Paris just before NeurIPS 2026. It is a chance for researchers working on these topics in Paris, and for those passing through on their way to the conference, to meet, hear about recent work, and think about open problems together.
+PIPO (Privacy, Informal Proofs & Open problems) is a one-day seminar on differential private machine learning, held in Paris just before NeurIPS 2026. It's an informal occasion to meet, discuss proofs, and work on open problems together.
+
 
 ## Speakers
 
