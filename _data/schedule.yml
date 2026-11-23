@@ -19,27 +19,24 @@
   type: break
   title: "Welcome and coffee"
 
-# - time: "09:50"
-#   end: "10:00"
-#   type: break
-#   title: "Opening remarks"
+
 
 - time: "10:00"
   end: "10:45"
   type: talk
-  title: ""
-  speaker: ""
-  speaker_url: ""
-  affiliation: ""
+  title: "TBA"
+  speaker: "Bogdan Kulynych"
+  speaker_url: "https://kulyny.ch/"
+  affiliation: "Research Scientist, Lausanne University Hospital, CHUV"
   abstract: ""
 
-- time: "10:45"
-  end: "11:30"
+- time: "10:00"
+  end: "10:45"
   type: talk
-  title: ""
-  speaker: ""
-  speaker_url: ""
-  affiliation: ""
+  title: "A Simple Presentation of Robust Membership Inference Attacks"
+  speaker: "Renaud Gaucher"
+  speaker_url: "https://renaudgaucher.github.io/"
+  affiliation: "PostDoc, LPSM, Sorbonne Université"
   abstract: ""
 
 - time: "11:30"
@@ -57,10 +54,10 @@
 - time: "13:30"
   end: "14:15"
   type: talk
-  title: ""
-  speaker: ""
-  speaker_url: ""
-  affiliation: ""
+  title: "PrivTab: A Tabular Foundation Model for Differentially Private Classification"
+  speaker: "Antti Honkela"
+  speaker_url: "https://www.cs.helsinki.fi/u/ahonkela/"
+  affiliation: "Professor, University of Helsinki"
   abstract: ""
 
 - time: "14:15"
