@@ -30,8 +30,8 @@
   affiliation: "Research Scientist, Lausanne University Hospital, CHUV"
   abstract: ""
 
-- time: "10:00"
-  end: "10:45"
+- time: "10:45"
+  end: "11:30"
   type: talk
   title: "A Simple Presentation of Robust Membership Inference Attacks"
   speaker: "Renaud Gaucher"
@@ -63,10 +63,10 @@
 - time: "14:15"
   end: "15:00"
   type: talk
-  title: ""
-  speaker: ""
-  speaker_url: ""
-  affiliation: ""
+  title: "Private Quantile Estimation in the Two-Server Model"
+  speaker: "Hannah Keller"
+  speaker_url: "https://sites.google.com/view/hannah-keller"
+  affiliation: "Postdoc, Max Planck Institute for Security and Privacy, MPI-SP"
   abstract: ""
 
 - time: "15:00"

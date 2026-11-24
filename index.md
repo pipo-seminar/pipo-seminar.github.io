@@ -12,8 +12,6 @@ PIPO (Privacy, Informal Proofs & Open problems) is a one-day seminar on differen
 
 {% include people.html people=site.data.speakers %}
 
-*More speakers to be announced soon.*
-
 ## Format
 
 - **Four talks** by researchers working on privacy.
@@ -29,6 +27,10 @@ The detailed schedule is on the [program page]({{ '/program/' | relative_url }})
 - **Venue:** {{ site.event.room }}, {{ site.event.venue }}, {{ site.event.address }} ([map]({{ site.event.map_url }})).
 - **Getting there:** Porte de Versailles (Metro 8, Metro 12 or Tram T3a).
 - **Lunch:** provided on site.
+
+## Code of conduct
+
+PIPO follows the [NeurIPS Code of Conduct](https://neurips.cc/public/CodeOfConduct), and all participants are expected to comply with it. If you experience or witness any problem, please report it to [Edwige Cyffers](https://cyffers.fr/), in person during the event or by email.
 
 ## Contact
 
